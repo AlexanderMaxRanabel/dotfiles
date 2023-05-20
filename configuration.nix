@@ -91,6 +91,7 @@
       firefox
     #  thunderbird
     ];
+    shell = pkgs.fish;
   };
 
   # Enable automatic login for the user.
@@ -107,17 +108,19 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-     emacs
      nitch
      hyfetch
      pfetch
      helix
-     htop
      fish
      gcc
-     deno
-    # chromium
-    #brave
+     librewolf
+     rustup
+     nushell
+     cmatrix
+     #librewolf-unwrapped
+     #chromium
+     #brave
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
      #wget
   ];

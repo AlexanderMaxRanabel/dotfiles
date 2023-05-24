@@ -113,7 +113,6 @@
      pfetch
      helix
      fish
-     gcc
      librewolf
      rustup
      nushell

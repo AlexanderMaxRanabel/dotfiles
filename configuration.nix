@@ -113,9 +113,11 @@
      pfetch
      helix
      fish
+     gcc
      librewolf
      rustup
      nushell
+     cmatrix
      #librewolf-unwrapped
      #chromium
      #brave
